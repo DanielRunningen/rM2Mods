@@ -1,7 +1,7 @@
 # Sleep Screen Assets
 
 This directory consists of replacement images for this "Auto sleep" feature.
-By default, this setting inkoves the `sleeping.png` image after the device has been left alone for 20 minutes.
+By default, this setting invokes the `sleeping.png` image after the device has been left alone for 20 minutes.
 This feature can be turned off in the device settings under the "Battery" section's "Auto sleep" toggle.
 
 The original image is a simple, black, 120 pixel tall banner across the top of the device that reads "Press button to continue" in a white, sans-serif font.

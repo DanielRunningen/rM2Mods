@@ -20,7 +20,7 @@ The timeout for the "Auto sleep" setting is controlled by the `/home/root/.confi
 The `IdleSuspendDelay` variable is set to 1200000 milliseconds (20 minutes) by default.
 Changing this value does not change the text describing the setting on the "Battery settings" page.
 
-In order for the change to take effect, either restart the device or run the comand:
+In order for the change to take effect, either restart the device or run the command:
 
 ```bash
 systemctl restart xochitl
