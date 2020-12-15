@@ -12,7 +12,7 @@ This is helpful if you want a particular page mostly visible as a reference, but
 
 This asset comes in several variants. Each has an orientation of diagonal, horizontal, or vertical and an opacity of 50 or 100%.
 
-<div style="background-color:lightgrey;border-radius:10px;padding:10px;">
+<div style="background-color:lightgrey !important;border-radius:10px !important;padding:10px !important;">
   <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/sleep/waves_diagonal_50percent.png" width="15%" />
   <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/sleep/waves_horizontal_50percent.png" width="15%" />
   <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/sleep/waves_vertical_50percent.png" width="15%" />
@@ -28,7 +28,7 @@ Each wave was generated on a grid of 26 pixel squares using the smart curve of t
 
 This asset comes in two styles, one where the text is an opaque white and another where the text is transparent.
 
-<div style="background-color:lightgrey;border-radius:10px;padding:10px;">
+<div style="background-color:lightgrey !important;border-radius:10px !important;padding:10px !important;">
   <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/sleep/zBorder_opaque.png" width="15%" />
   <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/sleep/zBorder_transparent.png" width="15%" />
 </div>
