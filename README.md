@@ -27,3 +27,9 @@ systemctl restart xochitl
 ```
 
 [[source]](https://www.reddit.com/r/RemarkableTablet/comments/8zarnq/standby_time/e2k0lcn?utm_source=share&utm_medium=web2x&context=3)
+
+## Adding or Changing Templates
+
+It's possible to add new or modify existing document templates. Doing so is only marginally more difficult than changing the `sleeping.png` or `suspended.png` from a technical standpoint. These files are stored in the `/usr/share/remarkable/templates` directory and are organized by the `templates.json` file found alongside the PNG and SVG files.
+
+[More on templates](https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/info.md)
