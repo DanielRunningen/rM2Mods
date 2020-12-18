@@ -1,6 +1,41 @@
 # Template Assets
 
-Each template needs a minimum of two files in order to work on the rM2. The PNG is used on the device while a page is open and being drawn over, while the SVG is used when the document is exported as a PDF.
+Each template needs a minimum of two files in order to work on the rM2. The PNG is used on the device while a page is open and being drawn over, while the SVG is used when the document is exported as a PDF. Both files need to be brought over to the `/usr/share/remarkable/templates` directory, and the `template.json` file needs to be modified to include your new template.
+
+The `template.json` file is one large JSON object with a single property, `templates`. This property is a list of objects, which of which describes the properties of each template. Here is an example of one template JSON object:
+
+```json
+{
+    "name": "Blank",
+    "filename": "Blank",
+    "iconCode": "\ue9fd",
+    "landscape": true,
+    "categories": [
+        "Creative",
+        "Lines",
+        "Grids",
+        "Life/organize"
+    ]
+}
+```
+
+Each of these objects is separated by a comma and has at most five properties.
+
+| Key | Required? | Description |
+|-----|:---------:|-------------|
+| name | yes | The name displayed on the tablet for the template|
+| filename | yes | The name of the template file on the device without the document suffix (`.svg` or `.png`) |
+| iconCode | yes | The Unicode sequence for the desired thumbnail |
+| landscape | no | A boolean value to set the object as a landscape only template |
+| categories | no | A list of strings used to group templates in the interface |
+
+The base filenames for each template should be the same so all relevant processes can identify them correctly. The only difference between these files should be their `.png` or `.svg` document types.
+
+The only difference between some templates is whether or not the `landscape` property is included. The stock "Blank" templates use the same template files but the landscape view has the `"landscape": true` property applied to its object.
+
+Categories are arbitrary. Any template that is included in the JSON file will be in the "All" list on the tablet. Templates with `"landscape": true` will only appear if the "Landscape" radio button is selected. Templates without it only appear if the "Portrait" radio button is selected. Aside form that, the category names are pulled from this template file, so if no templates have any categories, then no categories (besides "All") will appear when selecting a template. This also means you can add/remove whatever categories you want.
+
+Don't forget to run `systemctl restart xochitl` when you've finished configuring your templates.
 
 [[source]](https://remarkablewiki.com/tips/templates)
 
@@ -11,3 +46,13 @@ You'll notice there are no thumbnails or icons to represent these templates for 
 The JSON references these icons by a Unicode sequence. A list of the ones available and their codes can be found [here](https://remarkablewiki.com/tips/templates). As of right now, this repo will not be diving into making custom icons for the templates and will only be re-using existing ones.
 
 If you're interested in the custom icon side-quest, try starting with the explanation provided [on reddit](https://www.reddit.com/r/RemarkableTablet/comments/kb8eai/custom_template_icons/gffdisx?utm_source=share&utm_medium=web2x&context=3).
+
+## Available Templates
+
+### Micro Dots
+
+This template was designed because the stock "small" dots template still felt too big. There is currently only dots variant, but it is suitable for both portrait or landscape.
+
+It was made by using the same size and color dots as the original "small" dots template, but re-arranged into a 26px spaced grid. This makes for a 55 by 72 box grid.
+
+<img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/dots_micro.png" width="15%" />
