@@ -41,7 +41,7 @@ Don't forget to run `systemctl restart xochitl` when you've finished configuring
 
 ## What about thumbnails?
 
-You'll notice there are no thumbnails or icons to represent these templates for when the user selects one from the interface. Yep, there aren't any for the stock templates either. Why? Because these images are simple enough and compressible enough to be directly included in the `xochitl` binary. The only reference to them outside of the binary is in the `templates.json` file as the `iconCode` property. 
+You'll notice there are no thumbnails or icons to represent these templates for when the user selects one from the interface. Yep, there aren't any for the stock templates either. Why? Because these images are simple and compressible enough to be directly included in the `xochitl` binary. The only reference to them outside of the binary is in the `templates.json` file as the `iconCode` property.
 
 The JSON references these icons by a Unicode sequence. A list of the ones available and their codes can be found [here](https://remarkablewiki.com/tips/templates). As of right now, this repo will not be diving into making custom icons for the templates and will only be re-using existing ones.
 
@@ -53,6 +53,6 @@ If you're interested in the custom icon side-quest, try starting with the explan
 
 This template was designed because the stock "small" dots template still felt too big. There is currently only dots variant, but it is suitable for both portrait or landscape.
 
-It was made by using the same size and color dots as the original "small" dots template, but re-arranged into a 26px spaced grid. This makes for a 55 by 72 box grid.
+It was made by using the same size and color dots as the original "small" dots template, but re-arranged into a 26px spaced grid. This makes for a 54 by 72 box grid.
 
 <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/dots_micro.png" width="15%" />
