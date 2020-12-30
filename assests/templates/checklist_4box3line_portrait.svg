@@ -779,8 +779,8 @@
                 <path d="M300,330L460,330" style="fill:none;stroke:rgb(128,128,128);stroke-width:1.04px;"/>
             </g>
         </g>
-        <g transform="matrix(7.8375,0,0,1,-2276.25,-255)">
-            <path d="M300,330L460,330" style="fill:none;stroke:black;stroke-width:0.36px;"/>
+        <g transform="matrix(7.2125,0,0,1,-2038.75,-255)">
+            <path d="M300,330L460,330" style="fill:none;stroke:black;stroke-width:0.39px;"/>
         </g>
     </g>
 </svg>
