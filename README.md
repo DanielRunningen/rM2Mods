@@ -7,8 +7,8 @@ This is a collection of assets and scripts used to personalize a reMarkable2 e-i
 Different PNG files are used for various parts of the OS, all of which can be found in the device's `/usr/share/remarkable` directory.
 The most common ones to modify are the `sleeping.png` and `suspended.png` images.
 
-[More info for `sleeping.png`](https://github.com/DanielRunningen/rM2Mods/blob/main/assests/sleep/info.md)  
-[More info for `suspended.png`](https://github.com/DanielRunningen/rM2Mods/blob/main/assests/suspended/info.md)
+[More info for `sleeping.png`](https://github.com/DanielRunningen/rM2Mods/blob/main/assests/sleep/README.md)  
+[More info for `suspended.png`](https://github.com/DanielRunningen/rM2Mods/blob/main/assests/suspended/README.md)
 
 ## Changing Default Settings
 
@@ -32,4 +32,4 @@ systemctl restart xochitl
 
 It's possible to add new or modify existing document templates. Doing so is only marginally more difficult than changing the `sleeping.png` or `suspended.png` from a technical standpoint. These files are stored in the `/usr/share/remarkable/templates` directory and are organized by the `templates.json` file found alongside the PNG and SVG files.
 
-[More on templates](https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/info.md)
+[More on templates](https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/README.md)
