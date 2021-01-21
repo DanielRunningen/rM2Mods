@@ -1,0 +1,31 @@
+#!/usr/bin/expect -f
+# expect needs to be installed on your device in order to run this script
+
+if {$argc < 2} {
+   puts "usage: argv0 <template> <root_password>"
+   exit
+}
+
+set template [lindex $argv 0]
+set password [lindex $argv 1]
+
+spawn scp $template.png root@10.11.99.1:/usr/share/remarkable/templates/.
+expect "assword:"
+send "$password\r"
+interact
+
+spawn scp $template.svg root@10.11.99.1:/usr/share/remarkable/templates/.
+expect "assword:"
+send "$password\r"
+interact
+
+spawn scp templates.json root@10.11.99.1:/usr/share/remarkable/templates/.
+expect "assword:"
+send "$password\r"
+interact
+
+spawn ssh root@10.11.99.1 "systemctl restart xochitl"
+expect "assword:"
+send "$password\r"
+interact
+
