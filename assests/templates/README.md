@@ -27,7 +27,9 @@ Each of these objects is separated by a comma and has at most five properties.
 | filename | yes | The name of the template file on the device without the document suffix (`.svg` or `.png`) |
 | iconCode | yes | The Unicode sequence for the desired thumbnail |
 | landscape | no | A boolean value to set the object as a landscape only template |
-| categories | no | A list of strings used to group templates in the interface |
+| categories | yes\* | A list of strings used to group templates in the interface |
+
+\* Before the 2.6 update for reMarkable devices, the `categories` property was not required. It now is, but it can just be set to an empty list (`"categories": []`) to achieve the same effect as ommitting it in earlier versions.
 
 The base filenames for each template should be the same so all relevant processes can identify them correctly. The only difference between these files should be their `.png` or `.svg` document types.
 
