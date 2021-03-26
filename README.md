@@ -8,7 +8,7 @@ Different PNG files are used for various parts of the OS, all of which can be fo
 The most common ones to modify are the `sleeping.png` and `suspended.png` images.
 
 [More info for `sleeping.png`](https://github.com/DanielRunningen/rM2Mods/blob/main/assests/sleep/README.md)  
-[More info for `suspended.png`](https://github.com/DanielRunningen/rM2Mods/blob/main/assests/suspended/README.md)
+[More info for `suspended.png`](https://github.com/DanielRunningen/rM2Mods/blob/main/assests/suspension/README.md)
 
 ## Changing Default Settings
 
