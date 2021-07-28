@@ -31,7 +31,3 @@ expect "assword:"
 send "$password\r"
 interact
 
-#foreach arg $::argv {
-#   puts $arg
-#}
-
