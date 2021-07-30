@@ -14,13 +14,14 @@ This asset comes in several variants. Each has an orientation of diagonal, horiz
 
 Each wave was generated on a grid of 26 pixel squares using the smart curve of the pen tool and alternating between two parallel lines of the grid. The line was stroked in 1pt black.
 
-<img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/sleep/waves_diagonal_50percent.png" width="15%" />
-<img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/sleep/waves_horizontal_50percent.png" width="15%" />
-<img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/sleep/waves_vertical_50percent.png" width="15%" />
-<br/>
-<img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/sleep/waves_diagonal_opaque.png" width="15%" />
-<img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/sleep/waves_horizontal_opaque.png" width="15%" />
-<img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/sleep/waves_vertical_opaque.png" width="15%" />
+<p align="middle">
+   <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/sleep/waves_diagonal_50percent.png" width="30%" />
+   <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/sleep/waves_horizontal_50percent.png" width="30%" />
+   <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/sleep/waves_vertical_50percent.png" width="30%" />
+   <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/sleep/waves_diagonal_opaque.png" width="30%" />
+   <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/sleep/waves_horizontal_opaque.png" width="30%" />
+   <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/sleep/waves_vertical_opaque.png" width="30%" />
+</p>
 
 ## Z Border
 
@@ -28,5 +29,7 @@ This asset comes in two styles, one where the text is an opaque white and anothe
 
 The band is 50 pixels wide around all edges. The text ranges from 14 to 26 pixels in height and is centered along the width of the band. The characters are a mix of capital and lowercase Segoe Print font.
 
-<img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/sleep/zBorder_opaque.png" width="15%" />
-<img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/sleep/zBorder_transparent.png" width="15%" />
+<p align="middle">
+   <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/sleep/zBorder_opaque.png" width="30%" />
+   <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/sleep/zBorder_transparent.png" width="30%" />
+</p>

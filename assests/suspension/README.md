@@ -8,4 +8,6 @@ Replacement images for this feature are found in the `assets/suspension` directo
 
 Example:
 
-<img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/suspension/sebastian.png" width="15%" />
+<p align="middle">
+   <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/suspension/sebastian.png" width="30%" />
+</p>
