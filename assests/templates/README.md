@@ -51,10 +51,29 @@ If you're interested in the custom icon side-quest, try starting with the explan
 
 ## Available Templates
 
-### Micro Dots
+### Budgeting
 
-This template was designed because the stock "small" dots template still felt too big. There is currently only dots variant, but it is suitable for both portrait or landscape.
+<img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/budgeting.png" width="15%" />
 
-It was made by using the same size and color dots as the original "small" dots template, but re-arranged into a 26px spaced grid. This makes for a 54 by 72 box grid.
+### Bug Form
+
+<img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/bugForm.png" width="15%" />
+
+### Calendar
+
+<img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/calendar_day.png" width="15%" />
+
+### Checklists
+
+<img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/checklist_1box3line_portrait.png" width="15%" />
+<img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/checklist_4box3line_portrait.png" width="15%" />
+
+### Micro Pages
+
+These templates were designed because the stock "small" templates still felt too big. There is currently variants for dot, grid, and ruled papers. Dot and graph templates are suitable for both portrait and landscape.
+
+These were designed by using the same size and color dots as the original "small" dots template, but re-arranged into a 26px spaced grid. This makes for a 54 by 72 box grid. This is the same spacing for the grid and ruled papers. The ruled template has 105px top and left margins.
 
 <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/dots_micro.png" width="15%" />
+<img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/grid_micro.png" width="15%" />
+<img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/ruled_micro.png" width="15%" />
