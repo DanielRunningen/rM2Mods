@@ -65,8 +65,10 @@ If you're interested in the custom icon side-quest, try starting with the explan
 
 ### Checklists
 
-<img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/checklist_1box3line_portrait.png" width="15%" style="display: inline-block;" />
-<img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/checklist_4box3line_portrait.png" width="15%" style="display: inline-block;" />
+<p align="middle">
+   <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/checklist_1box3line_portrait.png" width="15%" />
+   <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/checklist_4box3line_portrait.png" width="15%" />
+</p>
 
 ### Micro Pages
 
@@ -74,6 +76,8 @@ These templates were designed because the stock "small" templates still felt too
 
 These were designed by using the same size and color dots as the original "small" dots template, but re-arranged into a 26px spaced grid. This makes for a 54 by 72 box grid. This is the same spacing for the grid and ruled papers. The ruled template has 105px top and left margins.
 
-<img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/dots_micro.png" width="15%" style="display: inline-block;" />
-<img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/grid_micro.png" width="15%" style="display: inline-block;" />
-<img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/ruled_micro.png" width="15%" style="display: inline-block;" />
+<p align="middle">
+   <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/dots_micro.png" width="15%" />
+   <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/grid_micro.png" width="15%" />
+   <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/ruled_micro.png" width="15%" />
+</p>
