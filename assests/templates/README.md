@@ -6,30 +6,25 @@ The `template.json` file is one large JSON object with a single property, `templ
 
 ```json
 {
-    "name": "Blank",
-    "filename": "Blank",
-    "iconCode": "\ue9fd",
-    "landscape": true,
-    "categories": [
-        "Creative",
-        "Lines",
-        "Grids",
-        "Life/organize"
-    ]
+   "name": "Blank",
+   "filename": "Blank",
+   "iconCode": "\ue9fd",
+   "landscape": true,
+   "categories": ["Creative", "Lines", "Grids", "Life/organize"]
 }
 ```
 
 Each of these objects is separated by a comma and has at most five properties.
 
-| Key | Required? | Description |
-|-----|:---------:|-------------|
-| name | yes | The name displayed on the tablet for the template|
-| filename | yes | The name of the template file on the device without the document suffix (`.svg` or `.png`) |
-| iconCode | yes | The Unicode sequence for the desired thumbnail |
-| landscape | no | A boolean value to set the object as a landscape only template |
-| categories | yes\* | A list of strings used to group templates in the interface |
+| Key        | Required? | Description                                                                                |
+| ---------- | :-------: | ------------------------------------------------------------------------------------------ |
+| name       |    yes    | The name displayed on the tablet for the template                                          |
+| filename   |    yes    | The name of the template file on the device without the document suffix (`.svg` or `.png`) |
+| iconCode   |    yes    | The Unicode sequence for the desired thumbnail                                             |
+| landscape  |    no     | A boolean value to set the object as a landscape only template                             |
+| categories |   yes\*   | A list of strings used to group templates in the interface                                 |
 
-\* Before the 2.6 update for reMarkable devices, the `categories` property was not required. It now is, but it can just be set to an empty list (`"categories": []`) to achieve the same effect as ommitting it in earlier versions.
+\* Before the 2.6 update for reMarkable devices, the `categories` property was not required. It now is, but it can just be set to an empty list (`"categories": []`) to achieve the same effect as omitting it in earlier versions.
 
 The base filenames for each template should be the same so all relevant processes can identify them correctly. The only difference between these files should be their `.png` or `.svg` document types.
 
@@ -39,7 +34,7 @@ Categories are arbitrary. Any template that is included in the JSON file will be
 
 Don't forget to run `systemctl restart xochitl` when you've finished configuring your templates.
 
-[[source]](https://remarkablewiki.com/tips/templates)
+[[source]](https://web.archive.org/web/20230608224115/https://remarkablewiki.com/tips/templates)
 
 ## What about thumbnails?
 
@@ -86,4 +81,11 @@ These were designed by using the same size and color dots as the original "small
    <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/dots_micro.png" width="30%" />
    <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/grid_micro.png" width="30%" />
    <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/ruled_micro.png" width="30%" />
+</p>
+
+### Puzzles
+
+<p align="middle">
+   <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/Sudoku16.png" width="50%" />
+   <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/Sudoku16X.png" width="50%" />
 </p>
