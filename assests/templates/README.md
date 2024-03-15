@@ -86,6 +86,11 @@ These were designed by using the same size and color dots as the original "small
 ### Puzzles
 
 <p align="middle">
+   <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/Sudoku9.png" width="50%" />
+   <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/Sudoku9X.png" width="50%" />
+</p>
+
+<p align="middle">
    <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/Sudoku16.png" width="50%" />
    <img src="https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/Sudoku16X.png" width="50%" />
 </p>
