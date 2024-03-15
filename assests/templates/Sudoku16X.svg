@@ -7,11 +7,11 @@
    viewBox="0 0 371.475 495.3"
    version="1.1"
    id="svg5"
-   inkscape:version="1.2.2 (732a01da63, 2022-12-09, custom)"
+   inkscape:version="1.3.2 (1:1.3.2+202311252150+091e20ef0f)"
    inkscape:export-filename="../dd70a5d2/Sudoku16X.png"
    inkscape:export-xdpi="96"
    inkscape:export-ydpi="96"
-   sodipodi:docname="Sudoku16.svg"
+   sodipodi:docname="Sudoku16X.svg"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns="http://www.w3.org/2000/svg"
@@ -26,7 +26,16 @@
      inkscape:pagecheckerboard="true"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     showgrid="false" />
+     showgrid="false"
+     inkscape:zoom="0.39102564"
+     inkscape:cx="700.72131"
+     inkscape:cy="936"
+     inkscape:window-width="1503"
+     inkscape:window-height="937"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g9649" />
   <defs
      id="defs2" />
   <g
@@ -1225,21 +1234,24 @@
       </g>
       <g
          id="g9649"
-         style="fill:#000000;fill-opacity:1">
+         style="fill:#000000;fill-opacity:1"
+         inkscape:label="Outline">
         <rect
            style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.99999;stroke-dasharray:none;stroke-opacity:1"
            id="rect7811"
            width="4.2333331"
            height="317.5"
            x="0"
-           y="-1.7053026e-13" />
+           y="-1.7053026e-13"
+           inkscape:label="Left" />
         <rect
            style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.99999;stroke-dasharray:none;stroke-opacity:1"
            id="rect7811-9-7-9"
            width="4.2333331"
            height="317.5"
            x="313.26666"
-           y="0" />
+           y="0"
+           inkscape:label="Right" />
         <rect
            style="fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.99999;stroke-dasharray:none;stroke-opacity:1"
            id="rect7811-4"
@@ -1247,7 +1259,8 @@
            height="317.5"
            x="0"
            y="-317.5"
-           transform="rotate(90)" />
+           transform="rotate(90)"
+           inkscape:label="Top" />
         <rect
            style="display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:3.99999;stroke-dasharray:none;stroke-opacity:1"
            id="rect7811-9-7-9-0"
@@ -1255,7 +1268,8 @@
            height="317.5"
            x="313.26666"
            y="-317.5"
-           transform="rotate(90)" />
+           transform="rotate(90)"
+           inkscape:label="Bottom" />
       </g>
     </g>
     <rect
