@@ -1,0 +1,226 @@
+{
+  "templates": [
+    {
+      "name": "Lined",
+      "filename": "P Lines small",
+      "iconCode": "\ue9a8",
+      "categories": []
+    },
+    {
+      "name": "Lined",
+      "filename": "LS Lines small",
+      "iconCode": "\ue9b9",
+      "landscape": true,
+      "categories": []
+    },
+    {
+      "name": "Margin",
+      "filename": "P Margin small",
+      "iconCode": "\ue9d2",
+      "categories": []
+    },
+    {
+      "name": "Margin",
+      "filename": "LS Margin small",
+      "iconCode": "\ue9ca",
+      "landscape": true,
+      "categories": []
+    },
+    {
+      "name": "US Legal",
+      "filename": "P US Legal",
+      "iconCode": "\ue9d9",
+      "categories": []
+    },
+    {
+      "name": "Micro Ruled",
+      "filename": "ruled_micro",
+      "iconCode": "\ue9d9",
+      "categories": []
+    },
+    {
+      "name": "Dots",
+      "filename": "P Dots S",
+      "iconCode": "\ue994",
+      "categories": []
+    },
+    {
+      "name": "Dots",
+      "filename": "P Dots S",
+      "iconCode": "\ue9f8",
+      "landscape": true,
+      "categories": []
+    },
+    {
+      "name": "Micro Dots",
+      "filename": "dots_micro",
+      "iconCode": "\ue995",
+      "categories": []
+    },
+    {
+      "name": "Micro Dots",
+      "filename": "dots_micro",
+      "iconCode": "\ue9f9",
+      "landscape": true,
+      "categories": []
+    },
+    {
+      "name": "Grid",
+      "filename": "P Grid small",
+      "iconCode": "\ue99d",
+      "categories": []
+    },
+    {
+      "name": "Grid",
+      "filename": "P Grid small",
+      "iconCode": "\ue9fb",
+      "landscape": true,
+      "categories": []
+    },
+    {
+      "name": "Micro Grid",
+      "filename": "grid_micro",
+      "iconCode": "\ue99e",
+      "categories": []
+    },
+    {
+      "name": "Micro Grid",
+      "filename": "grid_micro",
+      "iconCode": "\ue9fa",
+      "landscape": true,
+      "categories": []
+    },
+    {
+      "name": "Sudoku 9",
+      "filename": "Sudoku9",
+      "iconCode": "\ue9bc",
+      "categories": []
+    },
+    {
+      "name": "Sudoku 9",
+      "filename": "Sudoku9",
+      "iconCode": "\ue9bc",
+      "landscape": true,
+      "categories": []
+    },
+    {
+      "name": "Sudoku 9 X",
+      "filename": "Sudoku9X",
+      "iconCode": "\ue9bc",
+      "categories": []
+    },
+    {
+      "name": "Sudoku 9 X",
+      "filename": "Sudoku9X",
+      "iconCode": "\ue9bc",
+      "landscape": true,
+      "categories": []
+    },
+    {
+      "name": "Sudoku 16",
+      "filename": "Sudoku16",
+      "iconCode": "\ue9bc",
+      "categories": []
+    },
+    {
+      "name": "Sudoku 16",
+      "filename": "Sudoku16",
+      "iconCode": "\ue9bc",
+      "landscape": true,
+      "categories": []
+    },
+    {
+      "name": "Sudoku 16 X",
+      "filename": "Sudoku16X",
+      "iconCode": "\ue9bc",
+      "categories": []
+    },
+    {
+      "name": "Sudoku 16 X",
+      "filename": "Sudoku16X",
+      "iconCode": "\ue9bc",
+      "landscape": true,
+      "categories": []
+    },
+    {
+      "name": "Budget",
+      "filename": "budgeting",
+      "iconCode": "\ue98f",
+      "categories": []
+    },
+    {
+      "name": "1 Box 3 Line Checklist",
+      "filename": "checklist_1box3line_portrait",
+      "iconCode": "\ue98f",
+      "categories": []
+    },
+    {
+      "name": "4 Box 3 Line Checklist",
+      "filename": "checklist_4box3line_portrait",
+      "iconCode": "\ue98f",
+      "categories": []
+    },
+    {
+      "name": "Bug Form",
+      "filename": "bugForm",
+      "iconCode": "\ue98f",
+      "categories": []
+    },
+    {
+      "name": "Day Calendar",
+      "filename": "calendar_day",
+      "iconCode": "\ue9a0",
+      "categories": []
+    },
+    {
+      "name": "Music",
+      "filename": "Notes",
+      "iconCode": "\ue9d3",
+      "categories": []
+    },
+    {
+      "name": "Piano Sheet",
+      "filename": "P Piano sheet small",
+      "iconCode": "\ue979",
+      "categories": []
+    },
+    {
+      "name": "Piano Sheet",
+      "filename": "LS Piano sheet small",
+      "iconCode": "\ue976",
+      "landscape": true,
+      "categories": []
+    },
+    {
+      "name": "Guitar Chords",
+      "filename": "P Guitar chords",
+      "iconCode": "\ue9b2",
+      "categories": []
+    },
+    {
+      "name": "Guitar Tablature",
+      "filename": "P Guitar tab",
+      "iconCode": "\ue9c5",
+      "categories": []
+    },
+    {
+      "name": "Bass Tablature",
+      "filename": "P Bass tab",
+      "iconCode": "\ue9c0",
+      "categories": []
+    },
+    {
+      "name": "Blank",
+      "filename": "Blank",
+      "iconCode": "\ue9fe",
+      "categories": []
+    },
+    {
+      "name": "Blank",
+      "filename": "Blank",
+      "iconCode": "\ue9fd",
+      "landscape": true,
+      "categories": []
+    }
+  ]
+}
