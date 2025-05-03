@@ -2,7 +2,7 @@
 
 This is a collection of assets and scripts used to personalize a reMarkable2 e-ink tablet.
 
-> [!WARNING] Build Freeze
+> [!WARNING]
 > Please note that my personal tablet is frozen at OS version 2.6.2.75 and I am therefore only making and recording information relevant to that build.
 > 
 > It could very well be that newer (or older) versions of the software can still use what is in this repository, but I will not be testing or developing anything for other versions at this time.
