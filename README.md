@@ -2,13 +2,18 @@
 
 This is a collection of assets and scripts used to personalize a reMarkable2 e-ink tablet.
 
+> [!WARNING] Build Freeze
+> Please note that my personal tablet is frozen at OS version 2.6.2.75 and I am therefore only making and recording information relevant to that build.
+> 
+> It could very well be that newer (or older) versions of the software can still use what is in this repository, but I will not be testing or developing anything for other versions at this time.
+
 ## Image Replacement
 
 Different PNG files are used for various parts of the OS, all of which can be found in the device's `/usr/share/remarkable` directory.
 The most common ones to modify are the `sleeping.png` and `suspended.png` images.
 
-[More info for `sleeping.png`](https://github.com/DanielRunningen/rM2Mods/blob/main/assests/sleep/README.md)  
-[More info for `suspended.png`](https://github.com/DanielRunningen/rM2Mods/blob/main/assests/suspension/README.md)
+[More info for `sleeping.png`](assests/sleep/README.md)  
+[More info for `suspended.png`](assests/suspension/README.md)
 
 ## Changing Default Settings
 
@@ -26,10 +31,10 @@ In order for the change to take effect, either restart the device or run the com
 systemctl restart xochitl
 ```
 
-[[source]](https://www.reddit.com/r/RemarkableTablet/comments/8zarnq/standby_time/e2k0lcn?utm_source=share&utm_medium=web2x&context=3)
+[source](https://www.reddit.com/r/RemarkableTablet/comments/8zarnq/standby_time/e2k0lcn?utm_source=share&utm_medium=web2x&context=3)
 
 ## Adding or Changing Templates
 
 It's possible to add new or modify existing document templates. Doing so is only marginally more difficult than changing the `sleeping.png` or `suspended.png` from a technical standpoint. These files are stored in the `/usr/share/remarkable/templates` directory and are organized by the `templates.json` file found alongside the PNG and SVG files.
 
-[More on templates](https://github.com/DanielRunningen/rM2Mods/blob/main/assests/templates/README.md)
+[More on templates](assests/templates/README.md)
